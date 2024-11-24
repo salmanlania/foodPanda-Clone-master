@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* margin: auto; */
+    /* background-color: #D70F64; */
+
+}
+
+.tableList1{
+    margin: auto;
+    background-color: red;
+
+}
+
+
+
+.tableList {
+    width: 100%;
+    margin: 0px auto 19rem auto;
+    height: 100%;
+    /* text-align: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #D70F64; */
+    /* justify-content: space-around; */
+    /* align-items: center;     */
+    /* margin-top: 4rem; */
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+.tableList table {
+    width: 40%;
+    height: auto;
+    line-height: 40px;
+    background-color: #D70F64;
+    /* border-radius: 0.5rem; */
+    /* margin: 10px; */
+     position: absolute;
+    top: 0.1rem;
+    right: 0.4rem;
+    border-bottom: 2px solid #fff;
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+}
+
+.tableList table th {
+    color: #fff;
+    font-weight: 600;
+    /* border-bottom: 1px solid white; */
+}
+
+.tableList table td {
+    color: #fff;
+}
+
+.tableList table td img {
+    width: 80px;
+    height: 70px;
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.512);
+    border-radius: 50%;
+
+}
+
+.tableList table tr button {
+    padding: 6px;
+    border: none;
+    outline: none;
+    background-color: #D70F64;
+    border-radius: 50px;
+    margin: 5px;
+    transition: 0.4s all;
+    text-transform: uppercase;
+}
+
+.tableList table tr button img {
+    filter: invert(1);
+    width: 20px;
+
+}
+
+.tableList table tr button:hover {
+    cursor: pointer;
+    color: yellow;
+    transform: scale(0.98);
+}
+
+.total {
+    display: flex;
+    line-height: 3rem;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    width: 20%;
+    text-align: justify;
+    position: relative;
+    margin-bottom: 3rem;
+
+
+
+
+}
+
+.total p {
+    font-weight: 600;
+    text-transform: uppercase;
+
+
+}
+
+.name {
+    color: black;
+    margin-right: 6rem;
+    position: absolute;
+    top: 3rem;
+    right: -21.3rem;
+    
+
+
+
+}
+
+.count {
+    text-align: justify;
+    position: absolute;
+    top: 3rem;
+    right: -24.3rem;
+    color: #D70F64;
+    
+
+
+
+}
